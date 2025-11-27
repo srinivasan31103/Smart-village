@@ -1,0 +1,92 @@
+{
+  "waterResource": {
+    "type": "water",
+    "name": "Village Water Tank #1",
+    "description": "Main water storage tank for the village",
+    "capacity": {
+      "value": 5000,
+      "unit": "liters"
+    },
+    "currentUsage": 3500,
+    "status": "active",
+    "location": {
+      "address": "Water Treatment Plant, Test Village",
+      "coordinates": {
+        "longitude": 77.5946,
+        "latitude": 12.9716
+      }
+    }
+  },
+  "electricityResource": {
+    "type": "electricity",
+    "name": "Power Transformer #1",
+    "description": "Primary power transformer for Zone A",
+    "capacity": {
+      "value": 1000,
+      "unit": "kW"
+    },
+    "currentUsage": 750,
+    "status": "active",
+    "location": {
+      "address": "Power Station, Test Village",
+      "coordinates": {
+        "longitude": 77.6000,
+        "latitude": 12.9800
+      }
+    }
+  },
+  "wasteResource": {
+    "type": "waste",
+    "name": "Waste Collection Center",
+    "description": "Central waste collection and processing facility",
+    "capacity": {
+      "value": 500,
+      "unit": "kg"
+    },
+    "currentUsage": 200,
+    "status": "active",
+    "location": {
+      "address": "Waste Management Facility, Test Village",
+      "coordinates": {
+        "longitude": 77.5900,
+        "latitude": 12.9700
+      }
+    }
+  },
+  "criticalResource": {
+    "type": "water",
+    "name": "Emergency Water Tank",
+    "description": "Emergency backup water storage",
+    "capacity": {
+      "value": 2000,
+      "unit": "liters"
+    },
+    "currentUsage": 1900,
+    "status": "critical",
+    "location": {
+      "address": "Emergency Facility, Test Village",
+      "coordinates": {
+        "longitude": 77.5950,
+        "latitude": 12.9720
+      }
+    }
+  },
+  "maintenanceResource": {
+    "type": "electricity",
+    "name": "Backup Generator",
+    "description": "Diesel generator for emergency power",
+    "capacity": {
+      "value": 500,
+      "unit": "kW"
+    },
+    "currentUsage": 0,
+    "status": "maintenance",
+    "location": {
+      "address": "Generator House, Test Village",
+      "coordinates": {
+        "longitude": 77.6010,
+        "latitude": 12.9810
+      }
+    }
+  }
+}

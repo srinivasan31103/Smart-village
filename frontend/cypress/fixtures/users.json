@@ -1,0 +1,48 @@
+{
+  "admin": {
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "password123",
+    "role": "admin",
+    "phone": "1234567890",
+    "address": {
+      "street": "123 Admin Street",
+      "city": "Admin City",
+      "state": "Admin State",
+      "pincode": "123456"
+    }
+  },
+  "officer": {
+    "name": "Officer User",
+    "email": "officer@example.com",
+    "password": "password123",
+    "role": "officer",
+    "phone": "2345678901",
+    "address": {
+      "street": "456 Officer Lane",
+      "city": "Officer City",
+      "state": "Officer State",
+      "pincode": "234567"
+    }
+  },
+  "citizen": {
+    "name": "Citizen User",
+    "email": "citizen@example.com",
+    "password": "password123",
+    "role": "citizen",
+    "phone": "3456789012",
+    "address": {
+      "street": "789 Citizen Road",
+      "city": "Citizen City",
+      "state": "Citizen State",
+      "pincode": "345678"
+    }
+  },
+  "testUser": {
+    "name": "Test User",
+    "email": "test.user@example.com",
+    "password": "password123",
+    "role": "citizen",
+    "phone": "4567890123"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "officerComment": {
+    "text": "We have received your complaint and assigned a team to investigate the issue.",
+    "author": "officer"
+  },
+  "adminComment": {
+    "text": "This issue has been escalated to the concerned department. Expected resolution within 48 hours.",
+    "author": "admin"
+  },
+  "citizenComment": {
+    "text": "Thank you for the update. Looking forward to quick resolution.",
+    "author": "citizen"
+  },
+  "statusUpdate": {
+    "text": "Work in progress. Our team is on-site addressing the issue.",
+    "author": "officer"
+  },
+  "resolutionComment": {
+    "text": "The issue has been successfully resolved. Please verify and provide feedback.",
+    "author": "officer"
+  }
+}
